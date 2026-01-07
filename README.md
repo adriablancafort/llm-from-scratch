@@ -91,6 +91,8 @@ The inference system implements:
 
 Throughout training, the system generates markdown reports tracking metrics across all phases, hardware specifications, estimated costs, and comparative performance between base/mid/sft/rl checkpoints.
 
+See [REPORT.md](REPORT.md) for a complete training report from a successful 3.5-hour run on 8xH100 GPUs ($92 total cost), including tokenizer evaluation, base model metrics, and final benchmark scores across ARC, MMLU, GSM8K, and HumanEval tasks.
+
 ## Inference
 
 After training completes, you can interact with your model through two interfaces:
